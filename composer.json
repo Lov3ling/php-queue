@@ -1,0 +1,22 @@
+{
+    "name": "ysandreew/queue",
+    "description": "php queue class",
+    "require": {
+        "predis/predis": "*"
+    },
+    "require-dev": {
+        "predis/predis": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ysandreew",
+            "email": "2625899521@qq.com"
+        }
+    ],
+    "autoload" : {
+    	"psr-4" : {
+    		"Ysandreew\\Queue\\":"src/"
+    	}
+    }
+}
